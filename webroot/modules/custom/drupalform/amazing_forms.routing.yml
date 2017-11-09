@@ -1,0 +1,7 @@
+amazing_forms_contribute:
+  path: '/submitFile'
+  defaults:
+    _form: '\Drupal\amazing_forms\Form\ContributeForm'
+    _title: 'File submit form'
+  requirements:
+    _permission: 'access content'
